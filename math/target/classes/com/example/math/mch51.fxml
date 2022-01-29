@@ -87,14 +87,9 @@
                         <Font size="25.0" />
                     </font>
                 </Text>
-                <Button fx:id="chp15x" layoutX="292.0" layoutY="382.0" mnemonicParsing="false" onAction="#mch1m" text="Repeat All">
+                <Button fx:id="chp15x" layoutX="222.0" layoutY="382.0" mnemonicParsing="false" onAction="#mch5" text="Previous">
                     <font>
                         <Font name="System Bold" size="20.0" />
-                    </font>
-                </Button>
-                <Button fx:id="schp52" layoutX="620.0" mnemonicParsing="false" onAction="#mch1m" prefHeight="35.0" prefWidth="34.0" text="&gt;">
-                    <font>
-                        <Font name="System Bold" size="11.0" />
                     </font>
                 </Button>
                 <Button fx:id="schp53" mnemonicParsing="false" onAction="#mch4m" prefHeight="35.0" prefWidth="34.0" text="&lt;">
@@ -155,6 +150,11 @@
                         <Font size="30.0" />
                     </font>
                 </Label>
+            <Button fx:id="chp15x1" layoutX="338.0" layoutY="382.0" mnemonicParsing="false" onAction="#homePage" text="Home">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
             </children>
         </AnchorPane>
         <AnchorPane fx:id="s5MainPane1" layoutX="75.0" layoutY="125.0">
@@ -165,11 +165,11 @@
                     </image>
                 </ImageView>
                 <Line endX="-4.9999847412109375" endY="240.7071075439453" layoutX="23.292892456054688" layoutY="70.29289245605469" startX="-5.0" />
-                <Circle fill="#3f48cc" layoutX="18.0" layoutY="72.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="18.0" layoutY="72.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Circle fill="WHITE" layoutX="18.0" layoutY="132.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Circle fill="WHITE" layoutX="18.0" layoutY="192.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Circle fill="WHITE" layoutX="18.0" layoutY="252.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
-                <Circle fill="WHITE" layoutX="18.0" layoutY="312.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fill="#3f48cc" layoutX="18.0" layoutY="312.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Button fx:id="schp51" layoutX="51.0" layoutY="300.0" mnemonicParsing="false" onAction="#mch5" prefHeight="24.0" prefWidth="169.0" text="Chapter 5: Assesment">
                     <font>
                         <Font name="System Bold" size="11.0" />

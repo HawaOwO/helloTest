@@ -78,9 +78,9 @@
                     </image>
                 </ImageView>
                 <Line endX="-4.9999847412109375" endY="240.7071075439453" layoutX="23.292892456054688" layoutY="70.29289245605469" startX="-5.0" />
-                <Circle fill="#3f48cc" layoutX="18.0" layoutY="72.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fill="WHITE" layoutX="18.0" layoutY="72.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Circle fill="WHITE" layoutX="18.0" layoutY="132.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
-                <Circle fill="WHITE" layoutX="18.0" layoutY="192.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fill="#3f48cc" layoutX="18.0" layoutY="192.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Circle fill="WHITE" layoutX="18.0" layoutY="252.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Circle fill="WHITE" layoutX="18.0" layoutY="312.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
                 <Button fx:id="schp5" layoutX="51.0" layoutY="300.0" mnemonicParsing="false" onAction="#mch5" prefHeight="24.0" prefWidth="170.0" text="Chapter 5: Assesment">

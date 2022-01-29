@@ -147,11 +147,6 @@
                         <Font name="System Bold" size="11.0" />
                     </font>
                 </Button>
-                <Button fx:id="schp53" mnemonicParsing="false" prefHeight="35.0" prefWidth="34.0" text="&lt;">
-                    <font>
-                        <Font name="System Bold" size="11.0" />
-                    </font>
-                </Button>
             </children>
         </AnchorPane>
     </children>
